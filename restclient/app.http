@@ -17,7 +17,7 @@ Content-Type: application/json
 
 ### GETTING USER BY ID
 
-GET http://localhost:4100/users/8dc0de98-3258-4223-87b0-d42d1b76cfdd
+GET http://localhost:4100/users/770d7679-7457-4207-8a47-887cf4dc88e3
 token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGRjMGRlOTgtMzI1OC00MjIzLTg3YjAtZDQyZDFiNzZjZmRkIiwiZl9uYW1lIjoiU2hlaWxsYSIsImxfbmFtZSI6IkNob21iYSIsImVtYWlsIjoiY2hvbWJhc2hlaWxhOTgwQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlzV2VsY29tZWQiOmZhbHNlLCJpYXQiOjE3MDgzNjcxMjksImV4cCI6MTcwODM3MDcyOX0.p9aTi923UZgkamQp9NJm8pssHW56TjY5doaNep9o7_I
 
 ###

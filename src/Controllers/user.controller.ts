@@ -48,7 +48,7 @@ export const createUser = async(req: Request, res: Response)=>{
         console.log(result);
         
 
-        return res.json({
+        return res.status(200).json({
             message: "Account created successfully",
         })
 
