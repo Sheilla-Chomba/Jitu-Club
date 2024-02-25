@@ -4,7 +4,6 @@ Content-Type: application/json
 {
     "f_name": "Jane",
     "l_name": "Ngene",
-    "email": "janengenggfff@gmail.com",
     "cohort_no":"22",
     "password": "12345678" 
 }

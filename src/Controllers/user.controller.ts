@@ -12,8 +12,11 @@ const users: User[] = []
 export const createUser = async(req: Request, res: Response)=>{
     try {
         const id = v4()
+        
 
-        const {f_name,l_name, email,cohort_no, password}:User = req.body
+        const {f_name,l_name,cohort_no, password}:User = req.body
+
+        const email= `${f_name}.${l_name}@thejitu.com`
 
         const hashed_pwd = await bcrypt.hash(password, 5)
 
@@ -87,7 +90,9 @@ export const updateUser = async(req:Request, res: Response)=>{
     try {
         const id = req.params.id
 
-        const {f_name, l_name,email,cohort_no, password}:User = req.body
+        const {f_name, l_name,cohort_no, password}:User = req.body
+
+        const email = `${f_name}.${l_name}@thejitu.com`;
 
         const pool = await mssql.connect(sqlConfig)
 
